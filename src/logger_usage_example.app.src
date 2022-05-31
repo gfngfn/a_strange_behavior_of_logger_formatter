@@ -1,5 +1,5 @@
 {application, logger_usage_example,
- [{description, "An OTP application for exemplify a somewhat strange behavior of the logger formatter"},
+ [{description, "An OTP application for exemplifying a somewhat strange behavior of the logger formatter"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {logger_usage_example_app, []}},
