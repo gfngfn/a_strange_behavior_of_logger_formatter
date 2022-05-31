@@ -1,0 +1,15 @@
+{application, logger_usage_example,
+ [{description, "An OTP application for exemplify a somewhat strange behavior of the logger formatter"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {logger_usage_example_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
