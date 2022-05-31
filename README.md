@@ -69,3 +69,17 @@ On the other hand, the latter template produces logs that look like:
 ```
 
 which reflects the intention correctly.
+
+This behavior reproduces under the following environment:
+
+```
+$ erl
+Erlang/OTP 24 [erts-12.0.1] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [jit] [dtrace]
+
+Eshell V12.0.1  (abort with ^G)
+1> q().
+ok
+2>
+$ rebar3 version
+rebar 3.16.1 on Erlang/OTP 24 Erts 12.0.1
+```
